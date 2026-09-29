@@ -1,0 +1,7 @@
+project: savantenvs/ciscoconfparse
+target: fuzz-parse-buggy-mhh-run-9
+# origin: https://app.mayhem.security/mayhemheroes/ciscoconfparse/fuzz-parse/9
+cmds:
+  - cmd: /mayhem/fuzz-parse
+    libfuzzer: true
+    timeout: 20
